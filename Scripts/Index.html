@@ -7,6 +7,34 @@
     <title>Employee List - Save Your Employee List</title>
 </head>
 <body>
+    <nav>
+        <h1 class="title">Employee List</h1>
+        <ul>
+            <li>Home</li> 
+            <li>About</li>
+            <li>Services</li> 
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <div class="employeeform">
+        <img src="../Images/ProfilePic.png" alt="">
+        <label for="imageFile">Choose Image</label>
+        <input type="file" id="imageFile">
+        <input type="number" min="10000" max="99999" placeholder="Enter Employee ID">
+        <input type="text" placeholder="Enter Employee Name">
+        <input type="text" placeholder="Enter Employee Profession">
+        <button>Add</button>
+    </div>
+
+    <div id="employeecardcontainer">
+        <div class="employeecard">
+            <img src="../Images/ProfilePic.png" alt="">
+            <p>ID - 28844</p>
+            <p>Name - Rahul</p>
+            <p>Profession - Programmer</p>
+        </div>
+    </div>
     <script src="Index.js"></script>
 </body>
 </html>
