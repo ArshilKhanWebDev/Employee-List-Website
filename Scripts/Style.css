@@ -118,5 +118,14 @@ nav ul li:hover{
 
 .employeecard img{
     height: 100px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
+    margin-bottom: 6px;
+}
+
+.employeecard span{
+    position: relative;
+    font-size: 20px;
+    left: 115px;
+    height: 20px;
+    cursor: pointer;
 }
